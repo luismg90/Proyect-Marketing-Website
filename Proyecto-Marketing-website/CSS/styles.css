@@ -6,9 +6,13 @@ body{
     margin: 0;
 }
 
+header{
+    min-height: 80vh;
+    background-color: navy
+}
+
 header .hero{
-    background-color: brown;
-    height: 100%;
+    
 }
 
 header nav{
@@ -27,6 +31,7 @@ header .logo{
 
 header .logo a{
     text-decoration: none;
+    color: white;
 }
 
 header .navbar{
@@ -39,5 +44,6 @@ header .navbar{
 header .navbar a{
     margin: 10px;
     text-decoration: none;
+    color: white;
 }
 
