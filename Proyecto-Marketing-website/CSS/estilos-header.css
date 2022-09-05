@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    min-height: 80vh;
+    background-color: navy
+}
+
+header .hero{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+header .hero .hero-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+header .hero .hero-text p{
+    text-align: left;
+    color: red;
+}
+
+header .hero .hero-text h1{
+    text-align: left;
+    color: white;
+}
+
+header .hero .hero-text h2{
+    text-align: left;
+    color: white;
+}
+
+header .hero .hero-text a.btn-hero{
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #2152f3;
+}
+
+header .hero .hero-img{
+    width: 50%;
+}
+
+header .hero .hero-img img{
+    width: 100%;
+}
+
+header nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo a{
+    text-decoration: none;
+    color: white;
+}
+
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .navbar a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+header .navbar a.btn-nav{
+    
+}
+
