@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+section#pricing{
+    background-color: white;
+    min-height: 80vh;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section .pricing-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .pricing-container span{
+    text-align: left;
+    color: black;
+    font-size: 25px;
+}
+
+section .prix-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section .prix-col .col-p{
+    border: 1px solid black;
+    margin: 25px;
+    height: 400px;
+    width: 400px;
+}
+
+section .prix-col .col-p i{
+    font-size: 45px;
+    color: black;
+}

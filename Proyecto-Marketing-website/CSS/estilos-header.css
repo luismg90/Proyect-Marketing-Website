@@ -6,9 +6,13 @@ body{
     margin: 0;
 }
 
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     min-height: 80vh;
-    background-color: navy
+    background-color: #020228;
 }
 
 header .hero{
@@ -29,16 +33,20 @@ header .hero .hero-text{
 header .hero .hero-text p{
     text-align: left;
     color: red;
+    font-size: 15px;
 }
 
 header .hero .hero-text h1{
     text-align: left;
     color: white;
+    font-size: 40px;
+    margin: 0;
 }
 
 header .hero .hero-text h2{
     text-align: left;
     color: white;
+    font-size: 15px;
 }
 
 header .hero .hero-text a.btn-hero{
@@ -52,6 +60,13 @@ header .hero .hero-text a.btn-hero{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #2152f3;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+header .hero .hero-text a.btn-hero:hover{
+    background-color: red;
+    transition: all 0.5s;
 }
 
 header .hero .hero-img{
@@ -98,6 +113,14 @@ header .navbar a{
 }
 
 header .navbar a.btn-nav{
-    
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+header .navbar a.btn-nav:hover{
+    background-color: #2152f3;
+    transition: all 1s;
 }
 
