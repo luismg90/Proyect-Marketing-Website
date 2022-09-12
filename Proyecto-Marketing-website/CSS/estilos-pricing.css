@@ -26,7 +26,9 @@ section .pricing-container{
 section .pricing-container span{
     text-align: left;
     color: black;
-    font-size: 25px;
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 section .prix-col{
@@ -37,13 +39,42 @@ section .prix-col{
 }
 
 section .prix-col .col-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2152f3;
     border: 1px solid black;
     margin: 25px;
-    height: 400px;
+    min-height: 600px;
     width: 400px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+section .prix-col .col-p:nth-child(2){
+    background-color: black;
+}
+
+section .prix-col .col-p p{
+    color: white;
 }
 
 section .prix-col .col-p i{
-    font-size: 45px;
-    color: black;
+    font-size: 60px;
+    color: white;
+}
+
+section .prix-col .col-p a{
+    width: 60%;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section .prix-col .col-p a.price-btn{
+    background-color: #2152f3;
 }
