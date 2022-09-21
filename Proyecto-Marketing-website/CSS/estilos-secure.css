@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+section#secure{
+    background-color: #020228;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section#secure .text-secure{
+    width: 50%;
+    margin-left: 50px;
+}
+
+section#secure .text-secure p{
+    text-align: left;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+section#secure .text-secure h1{
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+section#secure .text-secure h2{
+    text-align: left;
+    color: white;
+    font-size: 15px;
+}
+
+section#secure .text-secure .btn-secure{
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #2152f3;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+section#secure .text-secure .btn-secure:hover{
+    background-color: red;
+    transition: all 0.5s;
+}
+
+section#secure .img-secure{
+    width: 50%;
+}
+
+section#secure .img-secure img{
+    width: 80%;
+}

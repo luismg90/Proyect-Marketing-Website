@@ -8,13 +8,13 @@ body{
 
 html{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 section#pricing{
     background-color: white;
     min-height: 80vh;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 50px;
 }
 
 section .pricing-container{
